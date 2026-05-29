@@ -1,0 +1,107 @@
+# Web-Domain2
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bảng so sánh Domain - Hosting - URL</title>
+  <style>
+    /* CSS nội bộ giúp định dạng bảng rõ ràng, dễ nhìn */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 14px;
+      text-align: left;
+    }
+    th {
+      background-color: #34495e;
+      color: #ffffff;
+      font-weight: 600;
+    }
+    tr:nth-child(even) {
+      background-color: #f9fbfd;
+    }
+    tr:hover {
+      background-color: #f1f3f5;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .bg-domain { background-color: #e67e22; }
+    .bg-hosting { background-color: #27ae60; }
+    .bg-url { background-color: #2980b9; }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Bảng phân biệt Domain, Hosting và URL</h1>
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th style="width: 15%;">Khái niệm</th>
+            <th style="width: 40%;">Giải thích ngắn gọn</th>
+            <th style="width: 25%;">Ví dụ minh họa</th>
+            <th style="width: 20%;">Ẩn dụ thực tế</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge bg-domain">Domain</span></td>
+            <td><strong>Tên miền:</strong> Là địa chỉ định danh của website trên mạng Internet, giúp con người dễ nhớ thay vì phải dùng dãy số IP khô khan.</td>
+            <td><code>google.com</code><br><code>facebook.com</code></td>
+            <td><strong>Địa chỉ nhà</strong></td>
+          </tr>
+          <tr>
+            <td><span class="badge bg-hosting">Hosting</span></td>
+            <td><strong>Không gian lưu trữ:</strong> Là máy chủ (server) dùng để chứa toàn bộ mã nguồn, hình ảnh, dữ liệu của website để nó có thể hoạt động 24/7.</td>
+            <td>Nơi lưu trữ các file <code>index.html</code>, <code>style.css</code> trên máy chủ Cloud.</td>
+            <td><strong>Mảnh đất / Ngôi nhà</strong> (nơi chứa đồ đạc)</td>
+          </tr>
+          <tr>
+            <td><span class="badge bg-url">URL</span></td>
+            <td><strong>Đường dẫn toàn diện:</strong> Là địa chỉ chính xác, chi tiết để tìm đến một tài nguyên cụ thể (một trang, một bức ảnh) nằm bên trong website.</td>
+            <td><code>https://example.com/products/list</code></td>
+            <td><strong>Chỉ đường chi tiết</strong> (Vào nhà -> Lên tầng 2 -> Vào phòng ngủ)</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </div>
+
+  </body>
+</html>
